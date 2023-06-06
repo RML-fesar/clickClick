@@ -1,0 +1,48 @@
+
+
+
+body{
+    background-color: white;
+    font-family:'Roboto Condensed', 'Lucida Sans Unicode, 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*font-family:'Roboto Condensed', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+}
+
+
+h5{
+    color: aliceblue;
+    text-align: center;
+   
+}
+h6{
+    color: black;
+    text-align: center;
+   
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 20px;
+  }
+
+p.botonheader:hover {
+    color: goldenrod;
+}
+
+p.botonheader{
+    margin-top:10% ;
+}
+
+h6.slogan{
+    font-style: italic;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+

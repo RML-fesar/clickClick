@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" href="/assets/images/icon.ico">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One">
+  <!--Fuente de Google Fonts-->
+  <title>Click, Click!</title>
+</head>
+
+<!-- -->
+<body>
+    <div class="fixed-top">
+      <!--Barra de Navegacion-->
+      <div class="header">
+        <ul class="nav nav-pills nav-fill"
+          style="background-color:black ;font-family: Pathway Gothic One; font-size:x-large;">
+          <li class="nav-item">
+            <a class="nav-link " href="/views/Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/views/Comisiones.html">Comisiones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/views/Nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/views/Contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Cuenta</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#" data-toggle="modal" data-target="#myModal">Iniciar Sesión</a>
+              <a class="dropdown-item" href="#">Cerrar Sesión</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/views/CrearCuenta.html">Crear Cuenta</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+  <!-- Ventana Emergente -->
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal content goes here -->
+        <div class="modal-header">
+          <h5 class="modal-title">Iniciar Sesión</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+              <input type="email" class="form-control" id="Correo" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+              
+            </div>
+            <div class="mb-1">
+  
+              <button type="submit" class="btn btn-primary">Entrar</button>
+            </div>
+           
+          </form>
+          
+  
+  
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning">Olvidé mi contraseña</button>  
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Titulo-->
+  <div class="row my-5 " style="background-color:black;">
+    <div class="col mt-5">
+      <img class="d-block w-100" src="/assets/images/CONTACTO.jpg" alt="Contacto">
+    </div>
+  </div>
+</div>
+
+<div class="row my-4"> <!--Texto con 4 espacios rem (1 rem=16 pixeles) en margen "y" (top and bottom)-->
+  <div class="col-1"> </div>
+
+  <div class="col">
+    <h3 class="text-center"><strong> ¿Tienes alguna duda? ¡Contactanos! </strong></h3>
+  </div>
+
+  <div class="col-1"> </div>
+</div>
+<div class="row my-4"> <!--Texto con 4 espacios rem (1 rem=16 pixeles) en margen "y" (top and bottom)-->
+    <div class="col-1"> </div>
+  
+    <div class="col">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombre Completo</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+               </div>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+             </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+              </div>
+
+            </form>
+          </div>
+  
+    <div class="col-1"> </div>
+  </div> 
+  <div class="col-1"> </div>
+  
+  <div class="col text-center">
+    <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+
+  <div class="col-1"> </div>
+</div>
+  <!-- Footer-->
+  <!--Logo -->
+  <div class="row">
+    <div class="col">
+
+    </div>
+  </div>
+  <!--Termina Logo -->
+  <div class="row mt-3 ">
+    <div class="col-1"> </div>
+    <div class="col text-center">
+      <img src="/assets/images/icon.ico" class="mx-auto d-block" width="80" height="80" alt="Logo">
+    </div>
+    <div class="col text-center">
+      <p style=" color:darkgoldenrod; font-style: oblique;">"Uniendo talento y pasión en cada creación"</p>
+    </div>
+    <div class="col-1"> </div>
+
+  </div>
+  <div class="row mb-1">
+    <div class="col-1"> </div>
+    <div class="col text-center">
+      <a href="url">Politicas de Privacidad</a>
+    </div>
+    <div class="col-1"> </div>
+  </div>
+  <!--Perdí 5 horas por eliminar este codigo hdsptm, NO TOCAR-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!--Perdí 5 horas por eliminar este codigo hdsptm, NO TOCAR-->
+</body>
+
+</html>
